@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>American Psychological Association 7th edition (numeric, brackets, non-sup)</title>
-    <title-short>APA (numeric, superscript, brackets)</title-short>
+    <title>Custom Format - EAX (numeric, brackets, non-sup)</title>
+    <title-short>Custom EAX</title-short>
     <id>http://www.zotero.org/styles/apa-numeric-superscript-brackets</id>
-    <link href="http://www.zotero.org/styles/apa-numeric-superscript-brackets" rel="self"/>
+    <link href="https://raw.githubusercontent.com/grimreaper/csl-style-eax-custom/master/apa-numeric-superscript-brackets.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="https://apastyle.apa.org/style-grammar-guidelines/references/examples" rel="documentation"/>
     <author>
-      <name>Brenton M. Wiernik</name>
-      <email>zotero@wiernik.org</email>
+      <name>Eitan Adler</name>
+      <email>lists@eitanadler.com</email>
     </author>
     <category citation-format="numeric"/>
-    <category field="psychology"/>
     <category field="generic-base"/>
-    <summary>APA style, with numeric in-text citations in brackets</summary>
-    <updated>2023-07-16T22:56:49+00:00</updated>
+    <summary>APA style modified to my liking</summary>
+    <updated>2023-08-20T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
