@@ -1614,7 +1614,8 @@
               </group>
               <text macro="access"/>
               <text macro="publication-history"/>
-              <text variable="note" display="block"/>
+              <!-- annotated is cool, but extra is used for too much -->
+              <!-- <text variable="note" display="block"/> -->
             </group>
           </else>
         </choose>
