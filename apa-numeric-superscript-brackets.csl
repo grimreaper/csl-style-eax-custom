@@ -582,12 +582,10 @@
               <if variable="number" match="none">
                 <group delimiter=", ">
                   <text variable="genre" text-case="capitalize-first"/>
-                  <choose>
-                    <if variable="archive DOI URL" match="any">
-                      <!-- Include the university in brackets if thesis is published -->
-                      <text variable="publisher"/>
-                    </if>
-                  </choose>
+                  <group delimiter=": ">
+                    <text variable="publisher-place"/>
+                    <text variable="publisher"/>
+                  </group>
                 </group>
               </if>
             </choose>
@@ -939,12 +937,10 @@
           </group>
           <choose>
             <if type="thesis">
-              <choose>
-                <!-- Include the university in brackets if thesis is published -->
-                <if variable="archive DOI URL" match="any">
-                  <text variable="publisher"/>
-                </if>
-              </choose>
+              <group delimiter=": ">
+                <text variable="publisher-place"/>
+                <text variable="publisher"/>
+              </group>
             </if>
           </choose>
         </group>
