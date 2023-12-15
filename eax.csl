@@ -3,8 +3,8 @@
   <info>
     <title>Custom Format - EAX (numeric, brackets, non-sup)</title>
     <title-short>Custom EAX</title-short>
-    <id>http://www.zotero.org/styles/apa-numeric-superscript-brackets</id>
-    <link href="https://raw.githubusercontent.com/grimreaper/csl-style-eax-custom/master/apa-numeric-superscript-brackets.csl" rel="self"/>
+    <id>https://raw.githubusercontent.com/grimreaper/csl-style-eax-custom/master/eax.csl</id>
+    <link href="https://raw.githubusercontent.com/grimreaper/csl-style-eax-custom/master/eax.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="https://apastyle.apa.org/style-grammar-guidelines/references/examples" rel="documentation"/>
     <author>
@@ -130,6 +130,10 @@
           <label form="short" prefix=" (" suffix=")" text-case="title"/>
         </names>
         <names variable="collection-editor">
+          <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
+          <label form="short" prefix=" (" suffix=")" text-case="title"/>
+        </names>
+		<names variable="contributor">
           <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
           <label form="short" prefix=" (" suffix=")" text-case="title"/>
         </names>
