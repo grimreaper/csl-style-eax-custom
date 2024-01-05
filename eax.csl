@@ -133,7 +133,11 @@
           <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
           <label form="short" prefix=" (" suffix=")" text-case="title"/>
         </names>
-		<names variable="contributor">
+		    <names variable="producer">
+          <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
+          <label form="short" prefix=" (" suffix=")" text-case="title"/>
+        </names>
+		    <names variable="contributor">
           <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
           <label form="short" prefix=" (" suffix=")" text-case="title"/>
         </names>
