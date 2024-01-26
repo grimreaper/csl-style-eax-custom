@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>APA style modified to my liking</summary>
-    <updated>2023-08-22T00:00:00+00:00</updated>
+    <updated>2024-01-25T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -1202,7 +1202,7 @@
   </macro>
   <macro name="container-booklike">
     <choose>
-      <if variable="container-title" match="any">
+      <if variable="container-title collection-title" match="any">
         <group delimiter=" ">
           <text term="in" text-case="capitalize-first"/>
           <group delimiter=", ">
@@ -1218,6 +1218,7 @@
             </names>
             <group delimiter=": " font-style="italic">
               <text variable="container-title"/>
+              <text variable="collection-title"/>
               <!-- Replace with volume-title as that becomes available -->
               <choose>
                 <if is-numeric="volume" match="none">
